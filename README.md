@@ -27,7 +27,9 @@ A aplicação foi implementada como uma SPA React e pode ser executada localment
 
 ## 📸 Screenshots
 
-As capturas serão adicionadas na entrega final com imagens reais da interface.
+| Tela inicial com sugestões | Resposta com fontes citadas |
+|---------------------------|----------------------------|
+| ![Tela inicial](.github/screenshots/home.png) | ![Resposta](.github/screenshots/chat.png) |
 
 ---
 
