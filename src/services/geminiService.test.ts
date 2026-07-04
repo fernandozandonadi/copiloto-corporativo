@@ -5,7 +5,7 @@ import type { KnowledgeDoc, Message } from '../types'
 describe('askCopilot', () => {
   beforeEach(() => {
     vi.stubGlobal('fetch', vi.fn())
-    vi.stubEnv('VITE_GEMINI_API_KEY', 'test-key')
+    vi.stubEnv('GEMINI_API_KEY', 'test-key')
   })
 
   it('retorna uma resposta do modelo quando a API responde com sucesso', async () => {

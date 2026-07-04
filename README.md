@@ -1,6 +1,6 @@
 # 🤖 Copiloto Corporativo Inteligente
 
-> Projeto desenvolvido para a disciplina IA Generativa Aplicada ao Desenvolvimento — UniFECAF 2025/2026
+> Projeto desenvolvido para a disciplina IA Generativa Aplicada ao Desenvolvimento — UniFECAF - Rocketseat 2025/2026
 
 [![React](https://img.shields.io/badge/React-19-61DAFB?style=flat&logo=react)](https://react.dev)
 [![TypeScript](https://img.shields.io/badge/TypeScript-6-3178C6?style=flat&logo=typescript)](https://typescriptlang.org)
@@ -101,7 +101,7 @@ A aplicação inclui 16 documentos corporativos fictícios da TechNova Solutions
 ### Instalação
 
 ```bash
-git clone <url-do-repositorio>
+git clone https://github.com/fernandozandonadi/copiloto-corporativo.git
 cd copiloto-corporativo
 npm install
 cp .env.example .env.local
@@ -110,7 +110,7 @@ cp .env.example .env.local
 Edite o arquivo .env.local e informe sua chave:
 
 ```bash
-VITE_GEMINI_API_KEY=sua_chave_gemini_aqui
+GEMINI_API_KEY=sua_chave_gemini_aqui
 ```
 
 ### Comandos úteis
@@ -128,7 +128,7 @@ Acesse: http://localhost:5173
 
 ## 🌐 Deploy
 
-O projeto pode ser publicado no Vercel com a variável de ambiente VITE_GEMINI_API_KEY configurada no painel do projeto. O fluxo de deploy é compatível com GitHub + Vercel.
+O projeto pode ser publicado no Vercel com a variável de ambiente GEMINI_API_KEY configurada no painel do projeto. O fluxo de deploy é compatível com GitHub + Vercel.
 
 ---
 
@@ -178,7 +178,7 @@ src/
 - [x] Histórico de conversa persistido
 - [x] Estado de carregamento e fallback
 - [x] Testes automatizados
-- [ ] Backend proxy para proteger a API key em produção
+- [X] Backend proxy para proteger a API key em produção
 - [ ] Upload de documentos pelo usuário
 
 ---
@@ -194,8 +194,8 @@ src/
 
 ## 👨‍💻 Autor
 
-Fernando  
-Estudante de Desenvolvimento Web Low-Code — UniFECAF
+Fernando Zandonadi 
+Estudante de Desenvolvimento Web Low-Code — UniFECAF - Rocketseat
 
 ---
 

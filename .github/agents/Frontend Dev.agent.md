@@ -53,6 +53,6 @@ interface KnowledgeDoc {
 - Sempre exiba o componente completo — nunca trecho parcial
 - Inclua todos os imports
 - Ordene classes Tailwind: layout → spacing → colors → typography
-- API key sempre via `import.meta.env.VITE_GEMINI_API_KEY`
+- API key sempre via `process.env.GEMINI_API_KEY`
 - Comentários relevantes em português, código em inglês
 Antes de criar um componente, leia os arquivos existentes em `src/components/` para manter consistência de estilo.

@@ -94,7 +94,7 @@ Responsável por montar o prompt com:
 
 ## 6. Gestão da API Key
 
-A chave do Gemini é lida pelo Vite por meio de import.meta.env.VITE_GEMINI_API_KEY e deve ser configurada em um arquivo .env.local localmente, ou nas variáveis de ambiente do ambiente de deploy.
+A chave do Gemini é lida pelo Vite por meio de process.env.GEMINI_API_KEY e deve ser configurada em um arquivo .env.local localmente, ou nas variáveis de ambiente do ambiente de deploy.
 
 ---
 
